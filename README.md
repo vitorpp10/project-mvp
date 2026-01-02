@@ -32,7 +32,7 @@ Custom **Tailwind CSS theme extension** defining a specific color palette (**Sla
 
 ## Project Structure
 
-```plaintext
+```
 project-mvp/
 ├── app.py              # Application entry point and Flask routes
 ├── requirements.txt    # Project dependencies
@@ -41,3 +41,55 @@ project-mvp/
     ├── home.html       # Landing page
     ├── login.html      # Authentication page with custom JS validation
     └── register.html   # Account creation page with custom JS validation
+```
+
+## Technologies Used
+
+### Backend
+- Python 3.x
+- Flask
+
+### Frontend
+- HTML5
+- JavaScript (Vanilla)
+- Tailwind CSS
+
+### Assets
+- FontAwesome (Icons)
+- Google Fonts (Outfit & Inter)
+
+---
+
+## Installation and Setup
+
+To run this project locally, ensure you have Python installed on your system.
+
+### 1. Clone the repository
+```
+git clone https://github.com/vitorpp10/project-mvp.git
+cd project-mvp
+```
+
+### 2. Create and activate a virtual environment (optional but recommended)
+```
+python -m venv venv
+```
+
+- Windows
+```venv\Scripts\activate```
+
+- macOS / Linux
+
+```source venv/bin/activate```
+
+### 3. Install dependencies
+
+```pip install flask```
+
+### 4. Execute the application
+
+```python app.py```
+
+### 5. Access the application
+
+```http://127.0.0.1:5000```
