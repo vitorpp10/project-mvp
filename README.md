@@ -2,6 +2,7 @@
 
 <img width="240" height="25" alt="image" src="https://github.com/user-attachments/assets/325f60d1-b85d-49cc-98f9-809cece96d5c" />
 
+
 This repository contains the **Minimum Viable Product (MVP)** for a career and job application management platform. The project focuses on a high-quality **User Experience (UX)** and a modern, clean interface, integrating a **Python Flask backend** with a **responsive Tailwind CSS frontend**.
 
 ---
