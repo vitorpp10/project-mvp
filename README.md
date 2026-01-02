@@ -1,5 +1,8 @@
 # Career Management Platform – MVP
 
+![Uploading image.png…]()
+
+
 This repository contains the **Minimum Viable Product (MVP)** for a career and job application management platform. The project focuses on a high-quality **User Experience (UX)** and a modern, clean interface, integrating a **Python Flask backend** with a **responsive Tailwind CSS frontend**.
 
 ---
