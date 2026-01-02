@@ -71,11 +71,12 @@ cd project-mvp
 ```
 
 ### 2. Create and activate a virtual environment (optional but recommended)
-```
-python -m venv venv
-```
+
+```python -m venv venv```
+
 
 - Windows
+  
 ```venv\Scripts\activate```
 
 - macOS / Linux
