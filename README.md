@@ -1,1 +1,43 @@
-# project-mvp
+# Career Management Platform – MVP
+
+This repository contains the **Minimum Viable Product (MVP)** for a career and job application management platform. The project focuses on a high-quality **User Experience (UX)** and a modern, clean interface, integrating a **Python Flask backend** with a **responsive Tailwind CSS frontend**.
+
+---
+
+## Project Overview
+
+The primary objective of this MVP was to build a robust **authentication flow** with **custom client-side validation**, moving away from standard browser behaviors to provide a more integrated and professional user experience.
+
+---
+
+## Key Technical Features
+
+### Custom Form Validation
+Implementation of a JavaScript-driven validation system that replaces default HTML5 *"fill this field"* bubbles. It provides real-time feedback with:
+
+- Inline error messages for required fields  
+- Dynamic visual states (success/error borders)  
+- Validation icons (SVG) injected via CSS classes  
+
+### Modern UI / UX
+Developed with a **dark-theme-first** approach using **Tailwind CSS**. The interface is fully responsive and adapts seamlessly to both mobile and desktop resolutions.
+
+### Flask Routing
+A structured backend responsible for page navigation and form submissions, implemented using **Python Flask**.
+
+### Theme Configuration
+Custom **Tailwind CSS theme extension** defining a specific color palette (**Slate-900 / Slate-800**) and typography (**Outfit** and **Inter** fonts).
+
+---
+
+## Project Structure
+
+```plaintext
+project-mvp/
+├── app.py              # Application entry point and Flask routes
+├── requirements.txt    # Project dependencies
+├── README.md           # Technical documentation
+└── templates/          # Jinja2 HTML templates
+    ├── home.html       # Landing page
+    ├── login.html      # Authentication page with custom JS validation
+    └── register.html   # Account creation page with custom JS validation
