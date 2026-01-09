@@ -1,98 +1,100 @@
-# Career Management Platform – MVP
+# career management platform – mvp
 
 <img width="240" height="25" alt="image" src="https://github.com/user-attachments/assets/325f60d1-b85d-49cc-98f9-809cece96d5c" />
 
-This repository contains the **Minimum Viable Product (MVP)** for a career and job application management platform. The project focuses on a high-quality **User Experience (UX)** and a modern, clean interface, integrating a **Python Flask backend** with a **responsive Tailwind CSS frontend**.
+this repository contains the **minimum viable product (mvp)** for a career and job application management platform. the project focuses on a high-quality **user experience (ux)** and a modern, clean interface, integrating a **python flask backend** with a **responsive tailwind css frontend**.
 
 ---
 
-## Project Overview
+## project overview
 
-The primary objective of this MVP was to build a robust **authentication flow** with **custom client-side validation**, moving away from standard browser behaviors to provide a more integrated and professional user experience.
-
----
-
-## Key Technical Features
-
-### Custom Form Validation
-Implementation of a JavaScript-driven validation system that replaces default HTML5 *"fill this field"* bubbles. It provides real-time feedback with:
-
-- Inline error messages for required fields  
-- Dynamic visual states (success/error borders)  
-- Validation icons (SVG) injected via CSS classes  
-
-### Modern UI / UX
-Developed with a **dark-theme-first** approach using **Tailwind CSS**. The interface is fully responsive and adapts seamlessly to both mobile and desktop resolutions.
-
-### Flask Routing
-A structured backend responsible for page navigation and form submissions, implemented using **Python Flask**.
-
-### Theme Configuration
-Custom **Tailwind CSS theme extension** defining a specific color palette (**Slate-900 / Slate-800**) and typography (**Outfit** and **Inter** fonts).
+the primary objective of this mvp was to build a robust **authentication flow** with **custom client-side validation**, moving away from standard browser behaviors to provide a more integrated and professional user experience.
 
 ---
 
-## Project Structure
+## key technical features
 
-```
+### custom form validation
+implementation of a javascript-driven validation system that replaces default html5 *"fill this field"* bubbles. it provides real-time feedback with:
+
+- inline error messages for required fields  
+- dynamic visual states (success/error borders)  
+- validation icons (svg) injected via css classes  
+
+### modern ui / ux
+developed with a **dark-theme-first** approach using **tailwind css**. the interface is fully responsive and adapts seamlessly to both mobile and desktop resolutions.
+
+### flask routing
+a structured backend responsible for page navigation and form submissions, implemented using **python flask**.
+
+### theme configuration
+custom **tailwind css theme extension** defining a specific color palette (**slate-900 / slate-800**) and typography (**outfit** and **inter** fonts).
+
+---
+
+## project structure
+
 project-mvp/
-├── app.py              # Application entry point and Flask routes
-├── requirements.txt    # Project dependencies
-├── README.md           # Technical documentation
-└── templates/          # Jinja2 HTML templates
-    ├── home.html       # Landing page
-    ├── login.html      # Authentication page with custom JS validation
-    └── register.html   # Account creation page with custom JS validation
-```
+├── app.py # application entry point and flask routes
+├── requirements.txt # project dependencies
+├── readme.md # technical documentation
+└── templates/ # jinja2 html templates
+├── home.html # landing page
+├── login.html # authentication page with custom js validation
+└── register.html # account creation page with custom js validation
 
-## Technologies Used
+yaml
+Copy code
 
-### Backend
-- Python 3.x
-- Flask
+## technologies used
 
-### Frontend
-- HTML5
-- JavaScript (Vanilla)
-- Tailwind CSS
+### backend
+- python 3.x
+- flask
 
-### Assets
-- FontAwesome (Icons)
-- Google Fonts (Outfit & Inter)
+### frontend
+- html5
+- javascript (vanilla)
+- tailwind css
+
+### assets
+- fontawesome (icons)
+- google fonts (outfit & inter)
 
 ---
 
-## Installation and Setup
+## installation and setup
 
-To run this project locally, ensure you have Python installed on your system.
+to run this project locally, ensure you have python installed on your system.
 
-### 1. Clone the repository
-```
+### 1. clone the repository
 git clone https://github.com/vitorpp10/project-mvp.git
 cd project-mvp
-```
 
-### 2. Create and activate a virtual environment (optional but recommended)
+r
+Copy code
+
+### 2. create and activate a virtual environment (optional but recommended)
 
 ```python -m venv venv```
 
 
-- Windows
+- windows
   
-```venv\Scripts\activate```
+```venv\scripts\activate```
 
-- macOS / Linux
+- macos / linux
 
 ```source venv/bin/activate```
 
-### 3. Install dependencies
+### 3. install dependencies
 
 ```pip install flask```
 
-### 4. Execute the application
+### 4. execute the application
 
 ```python app.py```
 
-### 5. Access the application
+### 5. access the application
 
 ```http://127.0.0.1:5000```
