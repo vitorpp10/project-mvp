@@ -1,35 +1,35 @@
-## Frontend & Templating
+## frontend & templating
 
-The frontend is built with **Jinja2 templates** and **Tailwind CSS**, focusing on a component-based approach for high performance and a clean, modern UI.
-
----
-
-### Core Pages
-
-#### Landing Page (`home.html`)
-Modern entry point featuring a dark-themed UI with radial gradients and responsive navigation.
-
-#### Auth Suite (`login.html` & `register.html`)
-Custom-validated forms that provide instant visual feedback (success/error states) without page reloads.
-
-#### User Dashboard (`dashboard.html`)
-A centralized hub displaying application statistics (Interview, Applied, Offer) and a filtered list of job entries.
-
-#### Profile Management (`profile.html` / `setup.html`)
-Dynamic forms for managing personal data, professional links (GitHub/LinkedIn), and CV uploads.
-
-#### Application Control (`create.html` / `edit.html`)
-Intuitive interfaces for managing job application details and document attachments.
+the frontend is built with **jinja2 templates** and **tailwind css**, focusing on a component-based approach for high performance and a clean, modern ui.
 
 ---
 
-### Key UI Features
+### core pages
 
-#### Responsive Architecture
-Mobile-first design using Tailwind’s grid and flexbox utilities.
+#### landing page (`home.html`)
+modern entry point featuring a dark-themed ui with radial gradients and responsive navigation.
 
-#### State Feedback
-Smooth transitions and hover effects to improve user interaction.
+#### auth suite (`login.html` & `register.html`)
+custom-validated forms that provide instant visual feedback (success/error states) without page reloads.
 
-#### Dynamic Components
-Conditional rendering using Jinja2 logic for user-specific alerts and navigation states.
+#### user dashboard (`dashboard.html`)
+a centralized hub displaying application statistics (interview, applied, offer) and a filtered list of job entries.
+
+#### profile management (`profile.html` / `setup.html`)
+dynamic forms for managing personal data, professional links (github/linkedin), and cv uploads.
+
+#### application control (`create.html` / `edit.html`)
+intuitive interfaces for managing job application details and document attachments.
+
+---
+
+### key ui features
+
+#### responsive architecture
+mobile-first design using tailwind’s grid and flexbox utilities.
+
+#### state feedback
+smooth transitions and hover effects to improve user interaction.
+
+#### dynamic components
+conditional rendering using jinja2 logic for user-specific alerts and navigation states.
